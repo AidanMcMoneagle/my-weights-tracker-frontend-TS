@@ -6,9 +6,7 @@ import store from "./store/index";
 import "./index.css";
 import App from "./App";
 
-const root = createRoot(
-  document.getElementById("root") as Element | DocumentFragment
-);
+const root = createRoot(document.getElementById("root"));
 
 root.render(
   <Provider store={store}>
