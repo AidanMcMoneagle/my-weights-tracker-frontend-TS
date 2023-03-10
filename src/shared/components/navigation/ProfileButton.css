@@ -1,0 +1,18 @@
+.profile-image-header {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  padding: 0;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.profile-image-sidebar {
+  width: 6rem;
+  height: 6rem;
+  padding: 0;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+}

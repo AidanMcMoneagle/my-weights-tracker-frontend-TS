@@ -1,0 +1,36 @@
+.drop-down {
+  position: absolute;
+  right: 35px;
+  margin-top: 0;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  background: white;
+  z-index: 10;
+}
+
+.profile-image-dropdown {
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logout-link {
+  color: white;
+  text-decoration: none;
+}
+
+.myprofile-footer {
+  padding-top: 0;
+}

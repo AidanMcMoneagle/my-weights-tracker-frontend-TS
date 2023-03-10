@@ -1,0 +1,32 @@
+.user-workout-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0;
+  margin: 1rem auto;
+}
+
+.no-workout-message {
+  max-width: 480px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-workout-message p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.no-archived-workout-message {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-archived-workout-message p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

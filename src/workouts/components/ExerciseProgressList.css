@@ -1,0 +1,15 @@
+.page-title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.exercise-graph-list {
+  width: 90%;
+  padding: 0;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
+.back-btn {
+  margin-bottom: 2rem;
+}

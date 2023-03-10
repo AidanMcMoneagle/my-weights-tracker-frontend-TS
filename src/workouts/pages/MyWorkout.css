@@ -1,0 +1,42 @@
+.add-workout-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-btn-container {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.navigation-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.active-page {
+  color: white;
+  background-color: #1e90ff;
+  border-radius: 18px;
+  text-decoration: underline white;
+  border-style: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin: 10px 5px 0px;
+}
+
+.not-active-page {
+  color: black;
+  border-radius: 18px;
+  text-decoration: none;
+  background: #ccc;
+  color: #979797;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-style: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin: 10px 5px 0px;
+}
